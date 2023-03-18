@@ -44,17 +44,6 @@ def excluir_cliente(file, lista):
         file.write(json.dumps(cliente) + '\n')
 
 
-""" def excluir_cliente(file, lista):
-    
-    nome = input("Qual o nome do cliente que pretendes excluir?")
-    for cliente in lista:
-        if cliente['nome'] != nome:       
-            file.write(json.dumps(cliente) + '\n')
-            print("Cliente removido!") 
-
-        else: print("Cliente não encontrado")
-        file.seek(0)
-"""
 def lista_cliente(clientes):
     print("Clientes existentes:")
     for cliente in clientes:
