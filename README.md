@@ -1,5 +1,5 @@
 # Client_Program
-This is a Python script for managing a list of clients, stored in a text file. The script provides a menu with different options to add, edit, delete, list and search for clients.
+This is a Python program for managing a list of clients, stored in a text file. The script provides a menu with different options to add, edit, delete, list and search for clients.
 
 The script opens a file called "clientes.txt" in write mode with the option to read as well (w+). It then defines several functions to handle different operations on the list of clients.
 
